@@ -1,13 +1,16 @@
-#include<iostream>
-#include<string>
-usingnamespace std;
+#include <iostream>
+#include <string>
+using namespace std;
 class Player{
     protected:
-        std::char move;
-        std::string name;
+        char move;
+        string name;
     public:
         Player(){};
-        char makeMove(char m)
-        string getName(string n)
-
+        Player(string n){
+            name=n;
+        }
+        string getName();
+        char makeMove(char m);
+        char getMove();
 };

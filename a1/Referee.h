@@ -1,9 +1,11 @@
 #include "Player.h"
+#include "Human.h"
+#include "Computer.h"
 #include <iostream>
-usingnamespace std;
+using namespace std;
 
 class Referee{
     public:
     Referee(){};
-    void play(Human p1,Computer p2);
+    Player play(Human p1,Computer p2);
 };

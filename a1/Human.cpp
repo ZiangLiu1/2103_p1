@@ -1,7 +1,16 @@
-#include<iostream>
+#include <iostream>
 #include "Human.h"
-usingnamespace std;
+using namespace std;
 
-char Player::makeMove(char m){
+char Human::getMove(){
+    return move;
+}
+
+char Human::makeMove(char m){
     move=m;
+}
+
+char Human::getMove()
+{
+    return 0;
 }

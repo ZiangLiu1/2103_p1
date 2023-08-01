@@ -1,8 +1,7 @@
-#include<iostream>
+#include <iostream>
 #include "Player.h"
-usingnamespace std;
-Player::Player(string n);name(n){ 
-}
+using namespace std;
+
 string Player::getName(){
     return name;
 }

@@ -1,8 +1,11 @@
-#include<iostream>
+#include <iostream>
 #include "Player.h"
-usingnamespace std;
+using namespace std;
 
-class Computer::public Player{
+class Computer : public Player{
     public:
-    Computer(string name="Computer",char move="R"){};
+    Computer(){
+        string name="Computer";
+        char move='R';
+    };
 };

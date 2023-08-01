@@ -1,4 +1,7 @@
-#include<iostream>
+#include <iostream>
 #include "Computer.h"
-usingnamespace std;
+using namespace std;
 
+string Player::getName(){
+    return name;
+}
